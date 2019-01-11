@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="30dp"
+    android:layout_marginTop="20dp"
+    android:orientation="vertical"
+    app:cardBackgroundColor="@color/Background"
+    app:cardCornerRadius="15dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center_horizontal"
+                android:padding="2dp"
+                android:src="@drawable/no" />
+
+            <TextView
+                android:id="@+id/aa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/image"
+                android:text="@string/Name"
+                android:textColor="@color/text" />
+
+            <CheckBox
+                android:id="@+id/vat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/bb"
+                android:layout_marginLeft="78dp"
+                android:layout_toRightOf="@id/aa"
+                android:text="Claim"
+                android:textColor="@color/text" />
+
+
+            <TextView
+                android:id="@+id/bb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/aa"
+                android:layout_toRightOf="@id/image"
+                android:text="13.3 Inch, 256 GB"
+                android:textColor="@color/text" />
+
+            <TextView
+                android:id="@+id/cc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/bb"
+                android:layout_toRightOf="@id/image"
+                android:text="4.7"
+                android:textColor="@color/text" />
+
+            <TextView
+                android:id="@+id/dd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cc"
+                android:layout_toRightOf="@id/image"
+                android:text="INR 56990"
+                android:textColor="@color/text" />
+
+            <TextView
+                android:id="@+id/ee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/dd"
+                android:layout_toRightOf="@id/image"
+                android:text="INR 56990"
+                android:textColor="@color/text" />
+
+            <TextView
+                android:id="@+id/ff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ee"
+                android:layout_toRightOf="@id/image"
+                android:text="INR 56990"
+                android:textColor="@color/text" />
+
+            <TextView
+                android:id="@+id/gg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ff"
+                android:layout_toRightOf="@id/image"
+                android:text="INR 56990"
+                android:textColor="@color/text" />
+
+            <TextView
+                android:id="@+id/hh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/gg"
+                android:layout_toRightOf="@id/image"
+                android:text="INR 56990"
+                android:textColor="@color/text" />
+
+            <TextView
+                android:id="@+id/ii"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/hh"
+                android:layout_toRightOf="@id/image"
+                android:text="INR 56990"
+                android:textColor="@color/text" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginBottom="30dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/pay"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="2"
+                android:background="@drawable/wow"
+                android:text="Pay" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/delete"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="2"
+                android:background="@drawable/delete"
+                android:text="Delete"
+                android:textColor="@color/text" />
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>
